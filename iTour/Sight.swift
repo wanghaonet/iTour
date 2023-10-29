@@ -11,8 +11,10 @@ import SwiftData
 @Model
 class Sight {
     var name: String
+    let id: Int
 
     init(name: String) {
         self.name = name
+        self.id = 0
     }
 }
